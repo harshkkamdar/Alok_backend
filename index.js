@@ -23,6 +23,7 @@ app.use(cors({
     //Add an item
     app.post('/student', (req, res) => {
         (new Student({
+            'id': req.body.id,
             'Name': req.body.Name,
             'Age': req.body.Age,
             'Birthday': req.body.Birthday,
