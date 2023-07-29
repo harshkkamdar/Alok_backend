@@ -84,8 +84,8 @@ app.use(cors({
     });
 
     //Get 1 item
-    app.get('/student/:Name', (req, res) => {
-        Student.find({ Name: req.params.Name })
+    app.get('/student/:id', (req, res) => {
+        Student.find({ id: req.params.id })
             .then(user => res.send(user))
             .catch((err) => console.log(err))
     });
