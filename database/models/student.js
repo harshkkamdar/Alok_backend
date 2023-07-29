@@ -5,6 +5,10 @@ const StudentSchema = new mongoose.Schema({
         type: String,
         trim: true,
     },
+    leave_year:{
+        type: String,
+        trim: true,
+    },
     Email: {
         type: String,
         trim: true,

@@ -24,6 +24,7 @@ app.use(cors({
     app.post('/student', (req, res) => {
         (new Student({
             'id': req.body.id,
+            'leave_year': req.body.leave_year,
             'Email': req.body.Email,
             'First_Name': req.body.First_Name,
             'Middle_Name': req.body.Middle_Name,
