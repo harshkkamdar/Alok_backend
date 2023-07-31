@@ -217,6 +217,10 @@ const StudentSchema = new mongoose.Schema({
         type: String,
         trim: true,
     },
+    test: {
+        type: JSON,
+        trim: true,
+    },
 
 });
 

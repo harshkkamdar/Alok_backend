@@ -77,6 +77,7 @@ app.use(cors({
             'extracurricular_activity_5': req.body.extracurricular_activity_5,
             'Number_of_years_EC5': req.body.Number_of_years_EC5, 
             'Awards_won_EC5': req.body.Awards_won_EC5,
+            'test': req.body.test,
         }))
             .save()
             .then(user => res.send(user))
