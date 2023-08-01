@@ -113,15 +113,15 @@ app.use(cors({
     });
 
     //Updating Student
-    app.patch('/student/:Name', (req, res) => {
-        Student.findOneAndUpdate({ 'Name': req.params.Name }, { $set: req.body })
+    app.patch('/student/:id', (req, res) => {
+        Student.findOneAndUpdate({ 'id': req.params.id }, { $set: req.body })
             .then(user => res.send(user))
             .catch((err) => console.log(err))
     });
 
     //delete item
-    app.delete('/student/:Name', (req, res) => {
-        Student.findOneAndDelete({ 'Name': req.params.Name })
+    app.delete('/student/:id', (req, res) => {
+        Student.findOneAndDelete({ 'id': req.params.id })
             .then(user => res.send(user))
             .catch((err) => console.log(err))
     })
