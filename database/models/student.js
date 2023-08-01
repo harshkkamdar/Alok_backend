@@ -217,11 +217,75 @@ const StudentSchema = new mongoose.Schema({
         type: String,
         trim: true,
     },
-    test: {
+    eng_prof: {
+        type: String,
+        trim: true,
+    },
+    honors: {
+        type: JSON,
+        trim: true,
+    },
+    academic_others: {
         type: JSON,
         trim: true,
     },
 
+    research_publications: {
+        type: JSON,
+        trim: true,
+    },
+    internships: {
+        type: JSON,
+        trim: true,
+    },
+    co_others: {
+        type: JSON,
+        trim: true,
+    },
+
+    extra_service: {
+        type: JSON,
+        trim: true,
+    },
+    extra_leadership: {
+        type: JSON,
+        trim: true,
+    },
+    extra_MUNs: {
+        type: JSON,
+        trim: true,
+    },
+    extra_others: {
+        type: JSON,
+        trim: true,
+    },
+
+    col_list: {
+        type: JSON,
+        trim: true,
+    },
+
+    essays_UC: {
+        type: JSON,
+        trim: true,
+    },
+    essays_commonApp: {
+        type: JSON,
+        trim: true,
+    },
+    essays_why: {
+        type: JSON,
+        trim: true,
+    },
+    essays_uniWIse: {
+        type: JSON,
+        trim: true,
+    },
+
+    payments: {
+        type: JSON,
+        trim: true,
+    },
 });
 
 const Student = mongoose.model('Student', StudentSchema)

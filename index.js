@@ -77,7 +77,28 @@ app.use(cors({
             'extracurricular_activity_5': req.body.extracurricular_activity_5,
             'Number_of_years_EC5': req.body.Number_of_years_EC5, 
             'Awards_won_EC5': req.body.Awards_won_EC5,
-            'test': req.body.test,
+
+            'eng_prof': req.body.eng_prof,
+            'honors': req.body.honors,
+            'academic_others': req.body.academic_others,
+
+            'research_publications': req.body.research_publications,
+            'internships': req.body.internships,
+            'co_others': req.body.co_others,
+
+            'extra_service': req.body.extra_service,
+            'extra_leadership': req.body.extra_leadership,
+            'extra_MUNs': req.body.extra_MUNs,
+            'extra_others': req.body.extra_others,
+            
+            'col_list': req.body.col_list,
+            
+            'essays_UC': req.body.essays_UC,
+            'essays_commonApp': req.body.essays_commonApp,
+            'essays_why': req.body.essays_why,
+            'essays_uniWIse': req.body.essays_uniWIse,
+            
+            'payments': req.body.payments,
         }))
             .save()
             .then(user => res.send(user))
