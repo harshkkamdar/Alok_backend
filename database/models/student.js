@@ -222,68 +222,68 @@ const StudentSchema = new mongoose.Schema({
         trim: true,
     },
     honors: {
-        type: array,
+        type: Array,
         trim: true,
     },
     academic_others: {
-        type: array,
+        type: Array,
         trim: true,
     },
 
     research_publications: {
-        type: array,
+        type: Array,
         trim: true,
     },
     internships: {
-        type: array,
+        type: Array,
         trim: true,
     },
     co_others: {
-        type: array,
+        type: Array,
         trim: true,
     },
 
     extra_service: {
-        type: array,
+        type: Array,
         trim: true,
     },
     extra_leadership: {
-        type: array,
+        type: Array,
         trim: true,
     },
     extra_MUNs: {
-        type: array,
+        type: Array,
         trim: true,
     },
     extra_others: {
-        type: array,
+        type: Array,
         trim: true,
     },
 
     col_list: {
-        type: array,
+        type: Array,
         trim: true,
     },
 
     essays_UC: {
-        type: array,
+        type: Array,
         trim: true,
     },
     essays_commonApp: {
-        type: array,
+        type: Array,
         trim: true,
     },
     essays_why: {
-        type: array,
+        type: Array,
         trim: true,
     },
     essays_uniWIse: {
-        type: array,
+        type: Array,
         trim: true,
     },
 
     payments: {
-        type: array,
+        type: Array,
         trim: true,
     },
 });
