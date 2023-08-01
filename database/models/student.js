@@ -217,6 +217,10 @@ const StudentSchema = new mongoose.Schema({
         type: String,
         trim: true,
     },
+    tests_taken: {
+        type: Array,
+        trim: true,
+    },
     eng_prof: {
         type: String,
         trim: true,

@@ -78,6 +78,7 @@ app.use(cors({
             'Number_of_years_EC5': req.body.Number_of_years_EC5, 
             'Awards_won_EC5': req.body.Awards_won_EC5,
 
+            'tests_taken': req.body.tests_taken,
             'eng_prof': req.body.eng_prof,
             'honors': req.body.honors,
             'academic_others': req.body.academic_others,
