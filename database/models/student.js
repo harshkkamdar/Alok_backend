@@ -290,6 +290,15 @@ const StudentSchema = new mongoose.Schema({
         type: Array,
         trim: true,
     },
+    
+    todo: {
+        type: Array,
+        trim: true,
+    },
+    communication: {
+        type: Array,
+        trim: true,
+    },
 });
 
 const Student = mongoose.model('Student', StudentSchema)

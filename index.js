@@ -100,6 +100,9 @@ app.use(cors({
             'essays_uniWIse': req.body.essays_uniWIse,
             
             'payments': req.body.payments,
+
+            'todo': req.body.todo,
+            'communication': req.body.communication,
         }))
             .save()
             .then(user => res.send(user))
